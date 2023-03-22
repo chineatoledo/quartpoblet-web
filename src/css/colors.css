@@ -1,0 +1,10 @@
+:root {
+    --text-color-dark: #0b1c3d ;
+    --text-color-contrast:#FFFFFF;
+    --main-color: #e2d2d6;
+    --main-color-light: #C5E1DB;
+    --contrast-color: #DC4A23;
+    --contrast-color-light: #EB9781;
+    --bg-body: #FFF7E8;
+    --font-sans: 'Montserrat', sans-serif;
+  }

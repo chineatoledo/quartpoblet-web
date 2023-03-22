@@ -1,0 +1,40 @@
+/***************************************/
+/*FUENTES*/
+
+@font-face {
+  font-family: 'RS4';
+  src: url('Roboto_Slab/static/RS-w400.woff2') format('woff2'),
+    url('Roboto_Slab/static/RS-w400.woff') format('woff');
+}
+  
+@font-face {
+  font-family: 'RS7';
+  src: url('Roboto_Slab/static/RS-w700.woff2') format('woff2'),
+    url('Roboto_Slab/static/RS-w700.woff') format('woff');
+}
+  
+  /***************************************/
+
+body {
+  color: var(--text-color-dark);
+}
+
+
+
+
+
+
+
+
+
+
+
+  h1{
+    font-family: "RS4";
+    color: var(--text-color-dark);
+  }
+
+  p{
+    font-family: "RS4";
+    color: var(--text-color-dark);
+  }
