@@ -21,58 +21,91 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 992px;
-    color: var(--text-color-dark);
-    font-family: 'RS7';
-    font-size: 1.2rem;
 }
 
-.container-logo {
+.nav-logo {
     height: 65px;
     width: auto;
 }
 
-.container-logo img {
+.nav-logo img {
     height: 100%;
 }
 
-.container-items {
+.nav-links {
     display: flex;
     align-items: center;
 }
 
-.container-items ul {
+.nav-links ul {
     display: flex;
     flex-direction: row;
     align-content: space-around;
 }
 
-.container-items ul li {
+.nav-links ul li {
     padding-left: 3rem;
 }
 
 main {
-    background-color: #F2F3F4;
+    background-color: var(--main-color-light);
 }
 
-.area-work {
-    padding-top: 65px;
+.main-contain {
+    background-color: #fff;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 95px;
     margin: 0 auto;
     max-width: 992px;
-    overflow: hidden;
+    box-shadow: 3px 0px 6px 1px rgb(0, 0, 0, 0.25),
+               -3px 0px 6px 1px rgb(0, 0, 0, 0.25);
+
 }
 
-body {
-    overflow: hidden;
-}
-
-.area-work img{
-    top: -140px; /* ajustar los valores para mover la imagen */
+.work-area > img {
+    object-fit: cover;
+    margin-top: -95px;
     opacity: 80%;
-    position: relative;
-    display: block;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
 }
 
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.container-cat { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+
+    height: auto;
+    width: 46%;
+    min-width: 350px;
+    margin: 1rem 1rem;
+
+    box-shadow: 0px 1.5px 6px 1px rgb(0, 0, 0, 0.25);
+}
+
+.items-img {
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    width: 100%;
+    height: 120px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.items-img img {
+    object-fit: cover;
+    opacity: 80%;
+    width:100%;
+}
 
 
 @media (max-width: 600px) {
@@ -80,10 +113,16 @@ body {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .container-items ul li {
-        padding: 0 1.5rem;
+    .nav-links ul li {
+        padding: 0 2rem;
     }
-    .area-work img{
+
+    .work-area {
+        padding-top: 30px;
+    }
+
+    .work-area > img {
+        margin-top: -120px;
         right: 250px;
     }
   }

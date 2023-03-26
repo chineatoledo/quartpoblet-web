@@ -13,28 +13,38 @@
     url('Roboto_Slab/static/RS-w700.woff') format('woff');
 }
   
-  /***************************************/
+/***************************************/
 
 body {
   color: var(--text-color-dark);
 }
 
+#active {
+  opacity: 60%;
+}
 
+.nav-links ul li a {
+  font-family: 'RS7', sans-serif;
+  color: var(--text-color-dark);
+  font-size: 1.1rem;
+}
 
+.nav-links ul li a:hover {
+  opacity: 50%;
+  transition: 0.2s;
+}
 
+h1, h2 {
+  font-family: "RS7";
+  color: var(--text-color-dark);
+}
 
+h2 {
+margin: 0.5rem;
+font-size: 1.1rem;
+}
 
-
-
-
-
-
-  h1{
-    font-family: "RS4";
-    color: var(--text-color-dark);
-  }
-
-  p{
-    font-family: "RS4";
-    color: var(--text-color-dark);
-  }
+p {
+  font-family: "RS4";
+  color: var(--text-color-dark);
+}
