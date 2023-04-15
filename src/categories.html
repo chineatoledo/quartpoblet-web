@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,13 @@
     <link rel="stylesheet" href="css/components.css">
     <script src="app.js"></script>
 </head>
+
 <body>
     <header>
         <div class="nav-main">
             <div class="nav-logo">
                 <a href="index.html" class="nav-logo" title="Home page">
-                    <img src="images/logo.png" alt="Quart de Poblet logo"/>
+                    <img src="images/logo.png" alt="Quart de Poblet logo" />
                 </a>
             </div>
             <div class="nav-links">
@@ -29,32 +31,43 @@
         </div>
     </header>
     <main>
+        <video class="bg-video" autoplay="" loop="" muted="" preload="">
+            <source src="./images/video-quart.mp4" alt="Festividad en Quart de Poblet">
+        </video>
         <div class="main-contain">
+
             <div class="work-area categories">
                 <div class="container-cat">
-                    <div class="items-img">
-                        <img src="./images/cat-fiestas.jpg" alt="Festividades">
-                    </div>
-                    <h2>Fiestas</h2>
+                    <a href="detalleFiestas.html">
+                        <div class="items-img">
+                            <img src="./images/cat-fiestas.jpg" alt="Festividades">
+                        </div>
+                        <h2 class="text-center">Fiestas</h2>
+                    </a>
                 </div>
                 <div class="container-cat">
-                    <div class="items-img">
-                        <img src="./images/cat-lugares.jpg" alt="Lugares de interés">
-                    </div>
-                    <h2>Lugares de interés</h2>
+                    <a href="detalleLugares.html">
+                        <div class="items-img">
+                            <img src="./images/cat-lugares.jpg" alt="Lugares de interés">
+                        </div>
+                        <h2 class="text-center">Lugares de interés</h2>
+                    </a>
+                </div>        
+                <div class="container-cat">
+                    <a href="detalleGastronomia.html">
+                        <div class="items-img">
+                            <img src="./images/cat-gastronomia.jpg" alt="Gastronomía">
+                        </div>
+                        <h2 class="text-center">Gastronomía</h2>
+                    </a>
                 </div>
                 <div class="container-cat">
-                    <div class="items-img">
-                        <img src="./images/cat-gastronomia.jpg" alt="Gastronomía">
-                    </div>
-                    <h2>Gastronomía</h2>
-                </div>
-                <div class="container-cat">
-                    <div class="items-img">
-                        <img src="./images/cat-comercio.jpg" alt="Comercio">
-                    </div>
-                    <h2>Comercio</h2>
-                </div>
+                    <a href="detalleComercio.html">
+                        <div class="items-img">
+                            <img src="./images/cat-comercio.jpg" alt="Comercio">
+                        </div>
+                        <h2 class="text-center">Comercio</h2>
+                    </a>
                 </div>
             </div>
         </div>
