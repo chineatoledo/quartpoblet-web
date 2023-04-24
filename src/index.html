@@ -12,28 +12,37 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <header>
-        <div class="nav-main">
-            <div class="nav-logo">
+    <main>
+        <div class="flex-col padding-lateral">
+            <video class="video-bg vista" autoplay="" loop="" muted="" preload="">
+                <source src="./images/video-quart.mp4" alt="Vide promocional de Quart de Poblet">
+            </video>
+            <img class="bg-main" src="./images/video-quart_Moment.jpg" alt="Imagen áerea de Quart de Poblet">
+            <div class="index-logo">
                 <a href="index.html" class="nav-logo" title="Home page">
                     <img src="images/logo.png" alt="Quart de Poblet logo"/>
                 </a>
             </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="categories.html">Categorías</a></li>
-                    <li><a href="presentation.html">Presentación</a></li>
-                    <li><a href="links.html">Enlaces</a></li>
-                </ul>
+            <div class="grid index-grid">
+                <div class="container">
+                    <h2><a href="categories.html">Categorías</a></h2>
+                </div>
+                <div class="container">
+                    <h2><a href="presentation.html">Presentación</a></h2>
+                </div>
+                <div class="container">
+                    <h2><a href="links.html">Enlaces</a></h2>
+                </div>                
             </div>
         </div>
-    </header>
-    <main>
-            <div class="work-area">
-                <video class="bg-video" autoplay="" loop="" muted="" preload="">
-                    <source src="./images/video-quart.mp4" alt="Festividad en Quart de Poblet">
-                </video>
-            </div>
     </main>
+    <footer>
+        <p>Esta página es un proyecto académico con fines únicamente educativos</p>
+        <p>2023 &copy; Carlos Alejandro Chinea Toledo</p>
+        <hr>
+        <div class="nav-main">
+            <p><a href="">Terms and conditions</a> &nbsp; <a href="">Privacy policy</a> &nbsp; <a href="">Cookies</a></p>
+        </div>
+    </footer>
 </body>
 </html>

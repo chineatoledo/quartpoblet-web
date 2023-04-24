@@ -19,8 +19,6 @@
     url('Montserrat/static/Montserrat-Bold.woff') format('woff');
 }
 
-
-  
 /***************************************/
 
 body {
@@ -42,12 +40,26 @@ h2 {
   margin: 0.5rem auto;
 }
 
-p {
+p, li a {
   font-family: 'M4', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   color: var(--text-color-dark);
   margin: 1rem 0;
   line-height: 1.6;
+  width: 100%;
+}
+
+section > p {
+  color: start;
+}
+
+li a {
+  font-family: 'M6', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+li a i {
+  font-family: 'M4', Arial, Helvetica, sans-serif;
 }
 
 .nav-links ul li a {
@@ -72,5 +84,27 @@ p {
 hr {
  width: 75%;
  color: grey;
- margin: 1.5 auto;
+ margin: 0.6rem auto;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+footer p {
+  color: var(--text-color-contrast);
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+footer p a {
+  font-family: 'M6', Arial, Helvetica, sans-serif;
+  color: var(--text-color-contrast);
+}
+
+.container h2 a {
+  color: var(--text-color-dark);
 }
