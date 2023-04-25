@@ -33,7 +33,7 @@ h1 {
 }
 
 
-h2 {
+h2, h2 a {
   font-family: 'M6', Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   color: var(--text-color-dark);

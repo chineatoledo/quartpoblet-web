@@ -24,7 +24,7 @@ h1 {
   font-size: 1.8rem;
 }
 
-h2 {
+h2, h2 a {
   color: var(--text-color-dark);
   margin: .5rem auto;
   font-family: M6, Arial, Helvetica, sans-serif;
